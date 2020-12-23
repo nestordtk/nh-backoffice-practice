@@ -1,0 +1,1 @@
+export type TableCols = {field: 'string', label: 'string', type: 'string'};
