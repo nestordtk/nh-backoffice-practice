@@ -1,0 +1,4 @@
+<div *ngIf="field.touched && field.errors">
+  {{ fieldErrors | json }}
+  <div *ngFor="let error of errorsMessage">{{ error }}</div>
+</div>

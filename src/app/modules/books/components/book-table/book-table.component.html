@@ -1,6 +1,6 @@
 <p-panel>
   <p-header>
-    <button pButton type="button" label="Agregar" class="p-button-success" icon="pi pi-plus"></button>
+    <button pButton type="button" label="Agregar" class="p-button-success" icon="pi pi-plus" routerLink="/books/book/"></button>
   </p-header>
   <div *ngIf="books.length <= 0 else bookTable">
     <div class="d-flex align-items-center justify-content-center h-100">
